@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FreeSql" Version="3.2.680" />
+    <PackageReference Include="FreeSql.Provider.Odbc" Version="3.2.680" />
+    <PackageReference Include="FreeSql.Provider.PostgreSQL" Version="3.2.680" />
+    <PackageReference Include="FreeSql.Provider.Sqlite" Version="3.2.680" />
+    <PackageReference Include="Npgsql" Version="6.0.7" />
+  </ItemGroup>
+
+</Project>

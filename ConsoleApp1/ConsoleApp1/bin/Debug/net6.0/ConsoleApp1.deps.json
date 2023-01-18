@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "KYSharp.SM": "2.0.0",
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "BouncyCastle.Crypto.dll/1.8.1": {
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.1.0",
+            "fileVersion": "1.8.15362.1"
+          }
+        }
+      },
+      "KYSharp.SM/2.0.0": {
+        "dependencies": {
+          "BouncyCastle.Crypto.dll": "1.8.1"
+        },
+        "runtime": {
+          "lib/net45/KYSharp.SM.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BouncyCastle.Crypto.dll/1.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eT+ncIOBgR8qakQ2Oc3Le0gVAcfGNBQi0EGJlPXniRkNMpRSekWQOqUwWOMutk6g4DYu4mu4g3JYASb/50tquA==",
+      "path": "bouncycastle.crypto.dll/1.8.1",
+      "hashPath": "bouncycastle.crypto.dll.1.8.1.nupkg.sha512"
+    },
+    "KYSharp.SM/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b0x91Ek2kYzvpiukMh6Z6L3GBb5HB58WzvkirO1TD3QRdzslXpUF75TGROumS94VXd3pGxHBiix/SV3UDES8QQ==",
+      "path": "kysharp.sm/2.0.0",
+      "hashPath": "kysharp.sm.2.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "path": "newtonsoft.json/13.0.2",
+      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
+    }
+  }
+}

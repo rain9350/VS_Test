@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "dgSpecHash": "UIwzMfkrz+QKovEb/Vt+4ICxhLhgqI1vnA1uId9YHDzQGUKevNUREXW0apeh1afTId03Eo+Zt2tfiIN5I8xirg==",
+  "success": true,
+  "projectFilePath": "D:\\VS_Test\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\bouncycastle.crypto.dll\\1.8.1\\bouncycastle.crypto.dll.1.8.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\kysharp.sm\\2.0.0\\kysharp.sm.2.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.11.146:8073/repository/gisq-group/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net6.0”还原包“BouncyCastle.Crypto.dll 1.8.1”。此包可能与项目不完全兼容。",
+      "libraryId": "BouncyCastle.Crypto.dll",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net6.0”还原包“KYSharp.SM 2.0.0”。此包可能与项目不完全兼容。",
+      "libraryId": "KYSharp.SM",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
