@@ -83,3 +83,5 @@ D:\VS_Test\DXApplication1\DXApplication1\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
 D:\VS_Test\DXApplication1\DXApplication1\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
 D:\VS_Test\DXApplication1\DXApplication1\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
 D:\VS_Test\DXApplication1\DXApplication1\bin\Debug\DevExpress.Office.v22.2.Core.xml
+D:\VS_Test\DXApplication1\DXApplication1\obj\Debug\DXApplication1.FormUpload.resources
+D:\VS_Test\DXApplication1\DXApplication1\obj\Debug\DXApplication1.ShowUploadCatalog.resources

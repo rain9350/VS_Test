@@ -9,8 +9,11 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Runtime.CompilerServices;
 using System.Windows.Forms;
+using static System.Net.WebRequestMethods;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace DXApplication1
 {
@@ -261,5 +264,20 @@ namespace DXApplication1
 
         private void BtnCollapse_Click(object sender, EventArgs e) => this.treeList1.CollapseAll();
 
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            string FtpIp = "192.168.99.248";
+            string Port = "30";
+            string UserName = "demo";
+            string Password = "demo";
+            FtpWebRequest request = (FtpWebRequest)WebRequest.Create("ftp://" + FtpIp + ":" + Port);
+
+            request.Credentials = new NetworkCredential(UserName, Password);
+            request.Method = Ftp.ListDirectory;
+            request.Timeout = 3000;
+
+            FtpWebResponse ftpResponse = (FtpWebResponse)request.GetResponse();
+            ftpResponse.Close();
+        }
     }
 }

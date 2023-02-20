@@ -28,7 +28,7 @@ static void test()
     Console.WriteLine($"资源码加密前数值为： {unitcode}");
     Console.WriteLine($"资源码加密后数值为： {aaa}");
     Console.WriteLine($"资源码解密后数值为： {nnn}");
-    Console.WriteLine("/n");
+    Console.WriteLine("");
 
     StringBuilder sb = new StringBuilder();
     sb.Append($"appId=").Append(appId);
@@ -41,5 +41,5 @@ static void test()
 
     Console.WriteLine($"签名sign参数sm3加密结果： {sign}");
     Console.WriteLine("");
-    Console.WriteLine($"签名为加密原数据： {sb.ToString()}");
+    Console.WriteLine($"未加密的签名原数据： {sb}");
 }

@@ -47,6 +47,7 @@
             this.treeListLookUpEdit1TreeList = new DevExpress.XtraTreeList.TreeList();
             this.radioGroup1 = new DevExpress.XtraEditors.RadioGroup();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnTest = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
@@ -225,11 +226,22 @@
             this.simpleButton1.Text = "simpleButton1";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
+            // btnTest
+            // 
+            this.btnTest.Location = new System.Drawing.Point(722, 391);
+            this.btnTest.Name = "btnTest";
+            this.btnTest.Size = new System.Drawing.Size(75, 23);
+            this.btnTest.TabIndex = 6;
+            this.btnTest.Text = "测试";
+            this.btnTest.UseVisualStyleBackColor = true;
+            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
+            // 
             // XtraForm2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1052, 473);
+            this.Controls.Add(this.btnTest);
             this.Controls.Add(this.simpleButton1);
             this.Controls.Add(this.radioGroup1);
             this.Controls.Add(this.treeListLookUpEdit1);
@@ -275,5 +287,6 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private System.Windows.Forms.ToolStripMenuItem BtnExpandAll;
         private System.Windows.Forms.ToolStripMenuItem BtnCollapse;
+        private System.Windows.Forms.Button btnTest;
     }
 }
